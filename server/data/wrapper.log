@@ -41,3 +41,49 @@ INFO   | jvm 1    | 2023/08/16 20:48:08 |  WARN | Store limit is 102400 mb (curr
 INFO   | jvm 1    | 2023/08/16 20:48:08 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Estudos\Desktop\Software Concorrente e Distribuído\Talkei\server\bin\win64\..\..\data only has 24682 mb of usable space. - resetting to maximum available disk space: 24682 mb
 INFO   | jvm 1    | 2023/08/16 20:48:09 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
 INFO   | jvm 1    | 2023/08/16 20:48:09 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+STATUS | wrapper  | 2023/08/16 20:56:00 | --> Wrapper Started as Console
+STATUS | wrapper  | 2023/08/16 20:56:00 | Launching a JVM...
+INFO   | jvm 1    | 2023/08/16 20:56:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2023/08/16 20:56:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2023/08/16 20:56:00 | 
+INFO   | jvm 1    | 2023/08/16 20:56:00 | Java Runtime: Eclipse Adoptium 17.0.3 C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot
+INFO   | jvm 1    | 2023/08/16 20:56:00 |   Heap sizes: current=1048576k  free=1038336k  max=1048576k
+INFO   | jvm 1    | 2023/08/16 20:56:00 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:../../conf/jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=wytwCcFviwK4FF5R -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=344 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2023/08/16 20:56:00 | Extensions classpath:
+INFO   | jvm 1    | 2023/08/16 20:56:00 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2023/08/16 20:56:00 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2023/08/16 20:56:00 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2023/08/16 20:56:00 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2023/08/16 20:56:00 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2023/08/16 20:56:01 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Estudos\Desktop\Software Concorrente e Distribuído\Talkei\server\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\Estudos\Desktop\Software Concorrente e Distribuído\Talkei\server\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown..
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | KahaDB is version 7
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Page File: ..\..\data\kahadb\db.data. Recovered pageFile free list of size: 0
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | PListStore:[C:\Users\Estudos\Desktop\Software Concorrente e Distribuído\Talkei\server\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Apache ActiveMQ 5.18.2 (localhost, ID:PC-do-Arthur-60416-1692230162172-0:1) is starting
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Listening for connections at: tcp://PC-do-Arthur:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Listening for connections at: amqp://PC-do-Arthur:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Listening for connections at: stomp://PC-do-Arthur:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Listening for connections at: mqtt://PC-do-Arthur:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@16628ad1{/,null,STARTING} has uncovered http methods for path: /
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Listening for connections at ws://PC-do-Arthur:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Connector ws started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | Apache ActiveMQ 5.18.2 (localhost, ID:PC-do-Arthur-60416-1692230162172-0:1) started
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  WARN | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\Estudos\Desktop\Software Concorrente e Distribuído\Talkei\server\bin\win64\..\..\data\kahadb only has 24650 mb of usable space. - resetting to maximum available disk space: 24650 mb
+INFO   | jvm 1    | 2023/08/16 20:56:02 |  WARN | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\Estudos\Desktop\Software Concorrente e Distribuído\Talkei\server\bin\win64\..\..\data only has 24650 mb of usable space. - resetting to maximum available disk space: 24650 mb
+INFO   | jvm 1    | 2023/08/16 20:56:03 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2023/08/16 20:56:03 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
