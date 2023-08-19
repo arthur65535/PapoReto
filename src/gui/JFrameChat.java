@@ -5,6 +5,11 @@ import chat.ChatPublisher;
 import javax.swing.JOptionPane;
 import util.ChatUser;
 
+/**
+ * Interface principal do chat
+ *
+ * @author Master
+ */
 public class JFrameChat extends javax.swing.JFrame {
 
     private final ChatPublisher publisher;
