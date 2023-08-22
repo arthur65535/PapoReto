@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "bibliotecas aqui/activemq-all-5.15.2.jar",
+        "bibliotecas aqui/javax.jms-api/62/javax.jms-api-62.jar"
+    ]
+}
