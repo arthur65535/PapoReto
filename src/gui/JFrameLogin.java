@@ -46,13 +46,15 @@ public class JFrameLogin extends javax.swing.JFrame {
         setLocation(new java.awt.Point(50, 50));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 255));
+//        jPanel1.setBackground(new java.awt.Color(0, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(103, 1, 211));
+
 
         jLabel1.setFont(new java.awt.Font("Lato", 1, 60)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("messenger");
 
-        jLabel2.setFont(new java.awt.Font("Lato", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Lato", 0, 16)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("messageria com JMS");
 
@@ -66,7 +68,7 @@ public class JFrameLogin extends javax.swing.JFrame {
                         .addGap(37, 37, 37)
                         .addComponent(jLabel1))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(104, 104, 104)
+                        .addGap(200, 200, 200)
                         .addComponent(jLabel2)))
                 .addContainerGap(44, Short.MAX_VALUE))
         );
@@ -76,7 +78,7 @@ public class JFrameLogin extends javax.swing.JFrame {
                 .addGap(59, 59, 59)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
