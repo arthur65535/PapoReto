@@ -13,7 +13,30 @@ Aplicativo de arquitetura distribuída para troca de mensagens instantâneas. Tr
 <p><i>Mikhael Machado Fernandes Maia</i></p>
 
 # Como executar
-Instrução considerando o uso do Intellij IDEA Community, e o java JDK 17 instalado.
+<b> Instrução considerando o VScode e o Java JDK 17 instalado:</b>
+
+<p>1: Clone o repositório na sua máquina.</p>
+<p>2: Montando o server:</p>
+
+  - Descompacte o arquivo "apache-activemq-5.15.2-bin" em algum lugar fora do repositório.
+  - Na pasta onde ele foi extraído, acesse bin/win64 e execute o "activemq.bat" e mantenha este terminal aberto, pois o server já está rodando nesta instância.
+  - Agora abra seu browser e entre em localhost:8161/admin. Login = admin, senha = admin. Mantenha esta aba aberta também.
+
+<p>3: Abrindo o projeto e importando bibliotecas:</p>
+
+  - Abra o VScode, clique em File->Open Folder e selecione a pasta do projeto clonado.
+  - Agora, na aba Extensions, pesquise e instale o Extesion Pack for Java - de autoria da Microsoft.
+  - Após isso, volte na aba Explorer, clique em Java Projects, o projeto estará aberto lá.
+  - Expanda o projeto Talkei, passe o mouse em Referenced Libraries, clique em + e navegue até o diretório deste repositório na sua máquina, e entre em bibliotecas aqui/javax.jms-api/62 e selecione o javax.jms-api-62.jar, dê OK.
+  - Ainda em Referenced Libraries, cliquem em + de novo, navegue até o diretório deste repositório na sua máquina, e entre em bibliotecas aqui e selecione activemq-all-5.15.2.jar e dê OK.
+
+<p>4: Rodando o código:</p>
+
+  - Abra o JFrameChat.java da pasta src->gui na IDE, e dê Run no JFrameChat.java. Uma janela de chat se abrirá.
+  - Dê Run outras 3 vezes e posicione todas as 4 janelas na tela para simular uma conversa em grupo.
+  - Divirta-se.
+
+<b> Instrução considerando o uso do Intellij IDEA Community, e o java JDK 17 instalado: </b>
 
 <p>1: Clone o repositório na sua máquina.</p>
 <p>2: Montando o server:</p>
